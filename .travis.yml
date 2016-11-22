@@ -19,11 +19,6 @@ install:
   # Check ansible version
   - ansible --version
 
-  #- ansible-galaxy install -r requirements.yml
-
-  # Create ansible.cfg with correct roles_path
-  #- printf '[defaults]\nroles_path=../' >ansible.cfg
-
   - wget https://packages.chef.io/stable/ubuntu/12.04/chefdk_0.18.26-1_amd64.deb
 
   - sudo dpkg -i chefdk_0.18.26-1_amd64.deb
