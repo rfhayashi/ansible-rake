@@ -1,0 +1,7 @@
+.idea
+*.iml
+roles
+.vagrant
+.kitchen.local.yml
+.kitchen/
+Dockerfile-kitchen*

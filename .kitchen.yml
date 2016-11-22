@@ -1,0 +1,14 @@
+---
+driver:
+  name: docker
+
+provisioner:
+  name: ansible_playbook
+  hosts: test-kitchen
+  recursive_additional_copy_path: .
+
+platforms:
+  - name: centos-7.2
+
+suites:
+  - name: default

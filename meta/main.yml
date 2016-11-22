@@ -1,0 +1,17 @@
+galaxy_info:
+  author: Rui Fernando Hayashi
+  description: Ansible Role that installs Rake build tool
+  company: rfhayashi
+  license: MIT
+  min_ansible_version: 1.2
+  platforms:
+  - name: EL
+    versions:
+      - 7
+
+  galaxy_tags:
+    - rake
+    - ruby
+    - centos
+
+dependencies: []
